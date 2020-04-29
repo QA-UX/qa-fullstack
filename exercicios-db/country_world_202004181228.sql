@@ -1,3 +1,26 @@
+create table country_world(
+	country varchar(5000),
+	region varchar(5000),
+	population numeric,
+	"area" numeric,
+	pop_density varchar(5000),
+	coastline varchar(5000),
+	net_migration varchar(5000),
+	infant_mortality varchar(5000),
+	gpd numeric,
+	literacy varchar(5000),
+	phones varchar(5000),
+	arable varchar(5000),
+	crops varchar(5000),
+	other varchar(5000),
+	climate varchar(5000),
+	birth_rate varchar(5000),
+	death_reate varchar(5000),
+	agriculture varchar(5000),
+	industry varchar(5000),
+	service varchar(5000)
+);
+
 INSERT INTO public.country_world (country,region,population,area,pop_density,coastline,net_migration,infant_mortality,gpd,literacy,phones,arable,crops,other,climate,birth_rate,death_reate,agriculture,industry,service) VALUES 
 ('Afghanistan ','ASIA (EX. NEAR EAST)         ',31056997,647500,'48','0','23,06','163,07',700,'36','3,2','12,13','0,22','87,65','1','46,6','20,34','0,38','0,24','0,38')
 ,('Albania ','EASTERN EUROPE                     ',3581655,28748,'124,6','1,26','-4,93','21,52',4500,'86,5','71,2','21,09','4,42','74,49','3','15,11','5,22','0,232','0,188','0,579')
